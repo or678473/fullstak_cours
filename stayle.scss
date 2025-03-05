@@ -49,4 +49,28 @@ color: #577399;
 .container {
     display: flex;
     align-items: center; /* Vertically center the items */
+}
+
+/* navigation bar */
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #495867;
+    li {
+      display: inline;
+      float: right;
+      a {
+        display: block;
+        padding: 8px;
+        text-decoration: none;
+        font-family: system-ui;
+        color: #BDD5EA;
+        font-size: 1rem;
+      }
+      a:hover {
+        color: #F7F7FF;
+      }
+    }
   }
